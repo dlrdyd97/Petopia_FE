@@ -1,0 +1,12 @@
+.admin-side-header{
+    text-align: center;
+    padding: 15px 10px;
+    font-weight: bold;
+    /* border: 1px solid black; */
+}
+
+.admin-side-hr{
+    margin: 0;
+  border: none;
+  border-top: 1px solid #000;
+}

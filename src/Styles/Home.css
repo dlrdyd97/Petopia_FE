@@ -1,0 +1,216 @@
+/* 슬라이더 컨테이너 */
+.homeSlider {
+    position: relative;
+    display: block;
+}
+
+.slick-slider {
+  position: relative;
+  display: block;
+  box-sizing: border-box;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-touch-callout: none;
+  -khtml-user-select: none;
+  -ms-touch-action: pan-y;
+  touch-action: pan-y;
+  -webkit-tap-highlight-color: transparent;
+  margin: 0; 
+  cursor: pointer;
+}
+
+/* 이미지 슬라이드 */
+.homeSlideImg {
+  width: 100%;
+  height: auto;
+}
+
+.slick-slide {
+    position: relative;
+}
+
+.slick-dots {
+    position: absolute;
+    bottom: 10px !important;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    z-index: 1;
+    /* 필요한 경우 z-index 값을 조정하세요 */
+}
+
+.containerIh {
+    position: relative;
+    display: flex;
+    margin: 2em auto;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+}
+
+.mapContainer {
+    display: block;
+    border: 1px solid #ccc;
+    width: 100%;
+    height: auto;
+    /* border: 1px solid green; */
+}
+
+.testlist {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    border: 1px solid orange;
+}
+
+.mainlist:hover {
+    opacity: 0.5;
+}
+
+/* 전체 추천 게시글 박스 div */
+.recommendation {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    margin: 1em auto;
+    text-align: center;
+    /* border: 1px solid #ccc; */
+    justify-content: center;
+}
+
+.recommendation-title {
+    display: block;
+    width : 95%;
+    background-color: #eaeaea;
+    justify-content: center;
+}
+
+.recommendation-title p {
+    font-size: 0.9em;
+    margin: 7px auto;
+    font-weight: bold;
+}
+
+.image-wrapper {
+    width: 220px;
+    height: 150px;
+    margin-top: 1em;
+}
+
+/* image-wrapper div 내부 이미지 */
+.image-wrapper img {
+    width: 100%;
+    height: 100%;
+}
+
+.image-map-go {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.stars-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.star {
+    font-size: 1.5em;
+    margin: 0 5px 10px 0;
+    color: #ffd700;
+}
+
+.image-map-go p {
+    font-size: 12px;
+    margin: 0;
+}
+
+.boardTitle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0 0 0;
+}
+
+.boardTitle h7 {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.boardContent {
+    display: flex;
+    align-items: center;
+}
+
+.boardContent p {
+    font-size: 13px;
+    margin: 5px;
+}
+
+.home-recommend-link {
+    display: flex;
+    width: 100%;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    color: inherit;
+    text-decoration: none;
+}
+
+.homebestthumbsupDiv {
+    text-align: center;
+}
+.homebestthumbsup {
+    text-align: center;
+    color: #537fe7;
+    font-size: 40px;
+
+}
+  
+/* .bubble
+{
+display: inline-block;
+position: relative;
+width: 55px;
+height: 30px;
+padding: 1px;
+margin: 0px 0 0 5px;
+background: #FFFFFF;
+-webkit-border-radius: 11px;
+-moz-border-radius: 11px;
+border-radius: 11px;
+border: #537fe7 solid 2px;
+}
+.bubble:after
+{
+content: '';
+position: absolute;
+border-style: solid;
+border-width: 5px 8px 5px 0;
+border-color: transparent #FFFFFF;
+display: block;
+width: 0;
+z-index: 1;
+left: -7px;
+top:10px;
+}
+.bubble:before
+{
+content: '';
+position: absolute;
+border-style: solid;
+border-width: 6px 9px 6px 0;
+border-color: transparent #537fe7;
+display: block;
+width: 0;
+z-index: 0;
+left: -9px;
+top: 9px;
+} */

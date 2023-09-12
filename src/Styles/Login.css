@@ -1,0 +1,334 @@
+
+.loginComponent {
+    /* margin-top: 100px; */
+    margin-top: 10px;
+}
+
+.signUpForm {
+    font-size: 0.7rem;
+    border-radius: 10px;
+    box-shadow:2px 2px 10px 1px #abbeeb;
+}
+
+.signUpText {
+    text-align: center;
+    font-weight:bolder;
+    font-size: 16px;
+    margin: 20px 0 10px 0px;
+    color: #537FE7;
+}
+
+.signUpBtnDiv {
+    margin: 0 0 0 30px;
+    
+}
+
+.signUpWithDivLeft {
+    display: inline-block;
+    border-radius: 5px;
+    border: 5px solid gray;
+    width: 120px;
+    height: 35px;
+    margin: 0 10px 0 27px ;
+    padding: -5px;
+    cursor: pointer;
+}
+
+.signUpWithDivRight {
+    display: inline-block;
+    border-radius: 5px;
+    border: 5px solid gray;
+    width: 120px;
+    height: 35px;
+    margin: 0 10px 0 8px ;
+    padding: -5px;
+    cursor: pointer;
+}
+
+.socialLoginLogoLeft {
+    width: 120px;
+    height: 30px;
+    margin: 0 10px 0 27px;
+}
+
+.socialLoginLogoRight {
+    width: 120px;
+    height: 30px;
+    margin: 0 10px 0 10px;
+}
+
+.signupCheckAgreeDiv {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 30px 0 0 0px;
+}
+
+.signupCheckAgreeBox {
+    cursor: pointer;
+}
+
+.signUpBtn {
+    display: inline-flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    width: 230px;
+    height: 30px;
+    font-size: 1rem;
+    margin: 0 0 0 13px;
+}
+
+.signUpLogoDiv {
+    display: flex;
+    height: 30px;
+    width: 40px;
+    float: left;
+    margin: 2px -10px -5px 2px;
+}
+
+.signUpLogo {
+    width: 30px;
+    height: 30px;
+}
+
+.SignUpLogoText {
+    display: inline-block;
+    height: 0px;
+    width: 80px;
+    font-size: 0.7rem;
+    font-weight: bold;
+    
+    line-height: 70%;
+    margin: 4px 0 0 0;
+}
+
+.p_or {
+    color: gray;
+    margin: 0px 0 0 0px;
+    text-align: center;
+}
+
+.findidpwsignupDiv {
+    margin: 30px 0 10px 0;
+    text-align: center;
+}
+
+.p_idpw {
+    text-align: center;
+    display: inline;
+    color: gray;
+    margin: 0px 0 0 0px;
+    cursor: pointer;
+}
+
+.p_idpw:hover {
+    color: #537FE7;
+}
+
+
+.signUpRow {
+    margin: -8px 0 0 27px;
+    width: 260px;
+}
+
+.signUpName {
+    display: inline-block;
+    margin-right: 21px;
+}
+
+.signUpNickname {
+    display: inline-block;
+}
+
+.signUpFormInput {
+    width: 200px;
+    height: 30px;
+    font-size: 0.5rem;
+}
+
+signUpFormInput:active {
+    font-size: 0.5rem;
+}
+
+.signUpFormInput::placeholder {
+    font-size: 0.5rem;
+}
+
+signUpFormInputDate:focus {
+    font-size: 0.5rem;
+}
+
+input[type='date']::before {
+    content: attr(data-placeholder);
+    font-size: 0.5rem;
+    color: gray;
+    width: 100%;
+  }
+
+input[type='date']:focus::before,
+input[type='date']:valid::before {
+display: none;
+}
+
+#name, #nickname, #birth, #email, #password1, #password2{
+    border: 0;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.5);
+    border-radius: 0;
+}
+
+input[type="date"] {
+    -ms-user-select: none;
+    -moz-user-select: -moz-none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    user-select: none;
+}
+
+input[type="date"]::before {
+    font-size: 0.7rem;
+}
+
+input[type="date"]:focus {
+    font-size: 0.7rem;
+}
+
+input[type="date"]:active {
+    font-size: 0.7rem;
+}
+
+
+input[type="date"]::-webkit-datetime-edit-text,
+input[type="date"]::-webkit-datetime-edit-month-field,
+input[type="date"]::-webkit-datetime-edit-day-field,
+input[type="date"]::-webkit-datetime-edit-year-field {
+  color: gray;
+  font-size: 10px;
+}
+
+/* FindAccount ---------------------------------*/
+
+.findBtn {
+    width: 100px;
+    margin-left: 77px;
+}
+
+.findEmailP {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.findPasswordDiv {
+    text-align: center;
+}
+
+.findPasswordP {
+    margin: 20px 20px 0 0;
+    display: inline-block;
+}
+
+.findPwDiv {
+    margin: 40px 0 20px 0;
+    text-align: center;
+}
+
+.sendVerificationBtn {
+    display: inline-block;
+}
+
+.p_find {
+    margin: 20px 0 0 0;
+    text-align: center;
+}
+
+.onlyPetopiaAccount {
+    color: gray;
+    text-align: center;
+}
+
+/* NaverLogin ---------------------------------------------------------------------------------------------*/
+
+.naverIdLoginImgDiv {
+    width: 120px;
+    height: 30px;
+    margin: 0 10px 0 17px;
+    /* display: inline-block; */
+   display: none;
+}
+
+/* socialLoginSuccessTable ------------------------------------------------------------------------------- */
+
+.socialLoginSuccessDiv {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.socialLoginSuccessTable {
+    text-align: center;
+    border-collapse: separate;
+    border-spacing: 0 35px;
+}
+
+.socialLoginSuccessTr {
+    border-spacing: 0 10px;
+}
+
+.socialLoginSuccessTrProfile {
+    line-height: 3rem;
+}
+
+.socialLoginSuccessTdProfile {
+    margin: -20px 0 20px 0;
+    
+}
+
+.socialLoginSuccessTdProfileImg {
+    width: 64px;
+    height: 64px;
+    border-radius: 100px;
+}
+
+.socialLoginSuccessTdTitle {
+    padding: 0px 0 0 0;
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    text-align: center;
+    width: 100px;
+    height: 20px;
+    line-height: 20px;
+    color: #537FE7;
+}
+
+.socialLoginSuccessTd {
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    text-align: center;
+    width: 100px;
+    height: 20px;
+    line-height: 20px;
+}
+
+.socialLoginSuccessAgreeDiv {
+    margin: 0px 0 -20px 0;
+}
+
+/* userUpdateComponent */
+
+
+.withdrawal{
+   
+    display: inline-block;
+    color: rgb(165, 165, 165);
+    font-size: 12px;
+    text-align: center; 
+
+    
+}
+
+.withdrawal span{
+    cursor: pointer;
+    margin: 50px 0 -100px 0;
+}

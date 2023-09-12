@@ -1,0 +1,41 @@
+.myReviewListMain{
+  display: block;
+  position: relative;
+  /* border: 1px solid black; */
+  margin-top: -10px;
+  padding: 10px;
+}
+
+.myReviewDetailPage_wrapper {
+  margin: 0 6%;
+}
+.myReviewTitle {
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin: 30px auto 30px 0;
+  color: #537fe7;
+}
+
+.hr-line {
+  border-top: 1px solid rgb(121, 121, 121);
+  width: 100%;
+  height: auto;
+}
+
+.myReviewBtns {
+  margin: 30px 0;
+  margin-left: 42%;
+}
+
+.reviewWriteSubmit {
+  margin: 5px;
+}
+
+.myreviewcontentbox{
+  margin-left: -20px;
+}
+
+.myreviewdatebox{
+  margin-right: 7px;
+  
+}

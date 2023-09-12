@@ -1,0 +1,517 @@
+/* Recommend */
+.RecomendBody {
+  margin: auto;
+}
+
+.h2_Recomend {
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin: 30px auto 10px 30px;
+  color: #537fe7;
+}
+
+.h3_Recomend {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 20px auto 0px 40px;
+  color: #222222ef;
+}
+
+.h3_search {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 10px auto 10px 40px;
+  color: #222222ef;
+}
+
+.searchDataCard {
+  margin: 0 0 0 15px;
+}
+
+.h3_totalboard {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 40px auto -25px 40px;
+  color: #222222ef;
+}
+
+.bestFoldBtn {
+  font-size: 13px;
+  color: #708090;
+  cursor: pointer;
+  margin: 15px 0 0 0;
+}
+.bestUnfoldBtn {
+  display: inline-block;
+  font-size: 13px;
+  color: #708090;
+  cursor: pointer;
+  margin: 23px 0 -20px 20px;
+  vertical-align: top;
+}
+.bestFoldBtn:hover {
+  color: #537fe7;
+}
+.bestUnfoldBtn:hover {
+  color: #537fe7;
+}
+.recommendBestWhiteSpaceDiv{
+  height: 50px;
+}
+.recommendBestWhiteSpace {
+  display: inline-block;
+  /* background-color: black; */
+  width: 230px;
+  height: 20px;
+}
+.bestFoldHr {
+  width: 90%;
+  text-align: center;
+  float: center;
+}
+
+.viweAllBtnDiv {
+  float: right;
+  margin: -35px 37px 25px auto;
+}
+.viweAllBtn {
+  text-align: center;
+  font-size: 13px;
+  width: 75px;
+  margin: 0 0px 0 0;
+}
+
+.searchBar {
+  margin: 10px 5px 10px auto;
+  font-size: 0.8rem;
+}
+
+.searchBtn {
+  margin: 10px auto 10px 0;
+}
+
+.recomendWriteBtn {
+  float: right;
+  margin: -10px 15px 0px auto;
+}
+
+.recommendAllBoardDiv {
+  width: 98%;
+  border: none;
+}
+
+/* Recomend_best-------------------------------- */
+
+.recommendBestCardText {
+}
+
+.recommendCard {
+  height: auto;
+  margin: 0 auto 10px auto;
+  cursor: pointer;
+}
+
+.recommendCardBody {
+  margin-bottom: -10px;
+}
+
+.recommendCardImg {
+  height: 200px;
+  width: auto;
+  object-fit: cover;
+  /* border-bottom: 1px solid rgba(128, 128, 128, 0.185); */
+}
+
+.recommendCardTitle {
+  font-weight: bold;
+  font-size: 1rem;
+  margin: -5px 0 10px 0;
+  text-align: center;
+}
+
+.recommendBestCardText {
+  justify-content: center;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.recommendIcon {
+  color: #537fe7;
+}
+
+.recommendMainWriterIcon {
+  margin: 4px 0 7px 0;
+}
+
+.p_recommendWriter {
+  font-size: 1rem;
+  margin: 0 20px 10px auto;
+  display: inline;
+  cursor: pointer;
+}
+
+.p_recommendWriter:hover {
+  color: #537fe7;
+}
+
+/* Recomend_viewall-------------------------------- */
+
+.listGroup {
+  margin: 5px auto -20px auto;
+  width: 90%;
+}
+
+.recommendListItem {
+  display: flex;
+  padding: 3px 0 3px 3px;
+  vertical-align: middle;
+  justify-content: center;
+}
+
+.recommendViewallImgDiv {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  margin: 0 10px 0 -20px;
+}
+
+.recommendViewallDiv {
+  display: inline-block;
+  width: 200px;
+  margin: 0px 0 0 0;
+}
+
+.listGroupImg {
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.listGroupText {
+  display: inline;
+  font-weight: 600;
+  font-size: 0.8rem;
+}
+
+.pagenation {
+  margin: 10px auto 30px auto;
+}
+
+/* Recomend_detail-------------------------------- */
+
+.h4_Recomend {
+  display: block;
+  font-size: 1rem;
+  font-weight: bold;
+  margin: 30px 30px 10px 30px;
+  text-align: center;
+  clear: both;
+}
+
+.recommendDetailTitle {
+  margin: 15px 20px -10px 20px;
+}
+
+.recommendDetailNickname {
+  font-size: 12px;
+}
+.hr_Recomend {
+  display: block;
+  width: 90%;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.detailauthoricon {
+  margin: 0 0 5px 0;
+}
+
+.p_recomend {
+  font-size: 1rem;
+  font-weight: bold;
+  margin: 0 20px 5px auto;
+  float: right;
+  display: block;
+  cursor: pointer;
+  clear: both;
+}
+
+.p_recomend:hover {
+  color: #537fe7;
+}
+
+.p_recommendDate {
+  display: block;
+  float: right;
+  clear: both;
+  margin-right: 20px;
+  font-size: 0.9rem;
+}
+
+.RecomendDetailBody {
+  /*display: flex;*/
+  justify-content: center;
+  align-items: center;
+  margin: -30px 0 0 0;
+}
+
+.RecomendDetailImg {
+  display: block;
+  margin: 0 auto 8px auto;
+  border: 1px solid #eee;
+  border-radius: 2px;
+  width: 300px;
+  height: auto;
+}
+
+.RecomendDetailP {
+  display: block;
+  margin: 0 auto 10px auto;
+  width: 80%;
+}
+
+.cardRecomendDetail {
+  width: 85%;
+  background-color: rgb(218, 216, 216);
+  margin-left: 28px;
+}
+
+.cardRecomendDetailBody {
+  margin: -5px auto -20px 10px;
+  font-size: 0.8rem;
+}
+
+.jangso {
+  font-weight: bold;
+  font-size: 1.0rem;
+}
+
+.cardRecomendDetailBodyAlert {
+  margin: 0 auto 0px 10px;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+/*추천해요, 저장할래요 div*/
+.thumbsHeart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin: -15px auto 10px auto;
+  text-align: center;
+}
+
+.thumbs {
+  margin: 30px;
+  text-align: center;
+}
+
+.heart {
+  margin: 30px;
+  text-align: center;
+}
+
+.thumbsHeartText {
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+}
+
+.thumbsHeartSpan {
+  margin: -5px 10px 0 5px;
+  display: block;
+  padding: 0 10px 0 15px;
+  clear: both;
+}
+
+.btn-lg {
+  display: inline;
+}
+
+.thumbsHeartIcon {
+  user-select: none;
+  display: inline;
+  font-size: 2rem;
+}
+
+/* .thumbsHeartIcon:hover {
+  color: #537fe7;
+  opacity: 0.9;
+} */
+.thumbsIconHover:hover {
+  color: #537fe7 ;
+  opacity: 0.9;
+}
+.heartIconHover:hover {
+  color: #cc0000    ;
+  opacity: 0.9;
+}
+
+.thumbsHeartIcon:focus,
+.thumbsHeartIcon:active {
+  user-select: none;
+  outline: none;
+  box-shadow: none;
+}
+
+.thumbsHeartIconBtn {
+  border: none;
+  background-color: #fff;
+  margin: 0 0 10px 0;
+}
+
+.thumbsHeartIconBtn:focus,
+.thumbsHeartIconBtn:active {
+  user-select: none;
+  outline: none;
+  box-shadow: none;
+}
+
+.clickedIconColor {
+  color: #537fe7;
+}
+.clickedIconColorRed {
+  color: #cc0000  ;
+}
+
+.Div_boardListBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: -20px auto 10px auto;
+  text-align: center;
+}
+
+.boardListBtn {
+  align-items: center;
+  justify-content: center;
+}
+
+.reportBtnDiv {
+  display: inline;
+  margin-left: 60px;
+  margin-right: -110px;
+}
+
+.reportBtn {
+  text-align: center;
+  font-size: 5px;
+  width: 46px;
+  padding: -10px;
+}
+
+.recommendUpdateBtnDiv {
+  text-align: right;
+  margin: -40px 30px -10px 0;
+}
+
+.recommendUpdateBtn {
+  
+  margin: 0px 0px 20px 0px;
+  
+}
+
+/* Recomend_write --------------------------------------*/
+
+.recomendP {
+  font-size: 1rem;
+  font-weight: bold;
+  float: left;
+  clear: both;
+  margin-left: 10px;
+}
+
+.radioBtnDiv {
+  margin: 0 auto 40px 25px;
+}
+
+.btnGroup {
+  margin: 0 10px 0 0;
+  border-radius: 0;
+}
+
+.btnGroup:hover {
+  background-color: #6c757d;
+  color: #fff;
+}
+
+.btnGroup:active {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.form-check {
+  clear: both;
+}
+
+.recomendCheckDiv {
+  margin-left: 20px;
+}
+
+/* BoardDetail ------------------------------------*/
+
+.detailWriterP {
+  margin: 0px 0 20ox 0;
+}
+
+.detailProfileImg {
+  width: 25px;
+  height: 25px;
+  border-radius: 100px;
+  margin: 0 5px 0 0;
+}
+
+.boardCommentDiv {
+  border: 0px;
+  border-radius: 2px;
+  width: 300px;
+  height: auto;
+  margin: 0 0 0 30px;
+}
+
+.boardListBtnDetailDiv {
+  margin-left: 130px;
+}
+
+.detailReportBtnDiv {
+  display: inline;
+  float: right;
+  margin: 20px 20px 10px 0;
+}
+
+.boardListBtnDetail {
+  margin: 0 0 0 30px;
+}
+
+/* writeCommentDiv  --------------------------------*/
+
+.writeCommentDiv {
+  margin: 20px 0 0 30px;
+  text-align: center;
+}
+
+.writeCommentTextarea {
+  display: inline-block;
+  border: 1px solid rgba(128, 128, 128, 0.3);
+  border-radius: 1px;
+  width: 300px;
+  height: 90px;
+  font-size: 0.7rem;
+  margin: 20px 0 0 -25px;
+}
+
+.writeCommentBtn {
+  text-align: center;
+  margin: 10px 0 0 213px;
+  font-size: 0.7rem;
+}
+
+/* Recommend_update ---------------------------------------------------------------------------- */
+
+.recommendUpdatePlaceSpan {
+  color: rgba(128, 128, 128, 0.562);
+  font-size: 14px;
+  
+}

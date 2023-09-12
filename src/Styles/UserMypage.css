@@ -1,0 +1,266 @@
+.user-mypage {
+  /* display: flex; */
+  flex-direction: column;
+  align-items: center;
+  min-height: calc(100vh - 25vh);
+}
+
+.user-mypage-area {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 7em;
+}
+
+.user-profile {
+  display: flex;
+  align-items: center;
+  margin-top: 1em;
+}
+
+.profile-image {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  margin: 1em 1em 0 0;
+  overflow: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 0px 3px #0077ff;
+  border-radius: 50%;
+  cursor: pointer;
+  position: relative;
+}
+
+.profile-image::before {
+  content: "";
+  display: block;
+  padding-top: 100%;
+}
+
+.profile-image img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+/*=================사용자 닉네임===================*/
+
+.user-nickname {
+  display: inline-block;
+  margin: 1em 1em 0 0;
+}
+
+.user-nickname-edit {
+  display: inline-block;
+  width: 10em;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  margin: 1em 1em 0 0;
+}
+
+.user-nickname-edit:focus {
+  outline: none;
+  border-color: #0077ff;
+}
+
+.user-nickname-icon {
+  display: inline-block;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.user-nickname-icon svg {
+  vertical-align: middle;
+}
+
+.user-nickname-form.edit-mode .user-nickname-submit {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.user-nickname-form.edit-mode .user-nickname-cancel {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.edit-buttons button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  padding: 0;
+  margin: 1em 10px 0 0;
+}
+
+.edit-nickname-button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  padding: 0;
+}
+
+.edit-nickname-button .edit-icon {
+  display: inline-block;
+  margin: 1em 10px 0 0;
+}
+
+/*====================================*/
+
+.hr-line-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+}
+
+.hr-line {
+  border-top: 1px solid rgb(121, 121, 121);
+  width: 80%;
+  height: auto;
+}
+
+.user-category {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.category-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 15px;
+  margin: 0 2em;
+}
+
+.category-count {
+  font-size: 15px;
+  color: rgb(55, 55, 55);
+  font-weight: bold;
+}
+
+.separationArea {
+  width: 100%;
+  height: 1em;
+  background-color: #eeeeee;
+}
+
+.user-section-title {
+  cursor: pointer;
+}
+
+/*============마이페이지 링크 이동 리스트=================*/
+
+.user-sections {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  border-top: 1px solid #eeeeee;
+}
+
+.active-link {
+  display: flex;
+  width: 100%;
+  text-decoration: none;
+}
+
+.user-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+  width: 100%;
+  min-height: 3.3em;
+  padding: 7px;
+  border-bottom: 1px solid #eeeeee;
+}
+
+.user-section-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 1rem;
+  margin-left: 2em;
+  width: 37px;
+  height: 37px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 2px #787878;
+  border-radius: 50%;
+}
+
+.user-info-icon {
+  color: #777777;
+}
+
+.user-section-title {
+  font-size: 15px;
+  font-weight: 500;
+  color: #222;
+  flex-grow: 1;
+}
+
+.user-section-icon2 {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  margin-right: 1em;
+}
+
+.user-info-icon2 {
+  color: #646464;
+}
+
+.button-wrapper {
+  display: flex;
+  justify-content: center;
+  margin: 1em;
+  width: 100%;
+}
+
+.logout-button-wrapper {
+  display: flex;
+  justify-content: center;
+  margin: 1em;
+}
+
+.logout-button {
+  width: 100%;
+  font-size: 1rem;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  border: none;
+  color: #fff;
+  background-color: #0077ff;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+
+.admin-button-wrapper {
+  display: flex;
+  justify-content: center;
+  margin: 1em;
+}
+
+.admin-button {
+  width: 100%;
+  font-size: 1rem;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  border: none;
+  color: #fff;
+  background-color: #ff3300;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}

@@ -1,0 +1,125 @@
+.mapmodal {
+    display: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 99;
+    background-color: rgba(0, 0, 0, 0.6);
+    /* overflow: scroll; */
+  }
+  .mapmodal::-webkit-scrollbar {
+    display: none;
+  }
+
+  .mapmodal > .mapModalContainer {
+    width: 90%;
+    max-width: 350px;
+    max-height: 400px;
+    margin: 0 auto;
+    border-radius: 0.3rem;
+    background-color: #fff;
+    /* 팝업이 열릴때 스르륵 열리는 효과 */
+    animation: modal-show 0.3s;
+    overflow: scroll;
+  }
+
+  .mapModalContainer::-webkit-scrollbar {
+    display: none;
+  }
+
+  .mapmodal > .mapModalContainer > .mapModalHeader {
+    position: relative;
+    padding: 16px 64px 16px 16px;
+    /* background-color: #f1f1f1; */
+    background-color: AliceBlue ;
+    font-weight: 700;
+    text-align: center;
+  }
+  .mapmodal > .mapModalContainer > .mapModalHeader > .mapModalBtn1 {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    width: 30px;
+    font-size: 21px;
+    font-weight: 700;
+    text-align: center;
+    color: #999;
+    background-color: transparent;
+    outline: none;
+    cursor: pointer;
+    border: 0;
+  }
+
+  .mapModalBtn1:hover{
+    opacity: 0.5;
+  }
+  .mapmodal > .mapModalContainer > .mapModalMain {
+    padding: 16px;
+    border-bottom: 1px solid #dee2e6;
+    border-top: 1px solid #dee2e6;
+  }
+  .mapmodal > .mapModalContainer > .mapModalFooter {
+    padding: 12px 16px;
+    text-align: right;
+    background-color: AliceBlue ;
+  }
+  .mapmodal > .mapModalContainer > .mapModalFooter .mapModalBtn2 {
+    padding: 6px 12px;
+    color: #fff;
+    background-color: #537FE7;
+    border-radius: 5px;
+    font-size: 13px;
+    outline: none;
+    cursor: pointer;
+    border: 0;
+  }
+
+ .mapModalBtn2:hover{
+    opacity: 0.5;
+  }
+
+  .mapmodal.openModal {
+    display: flex;
+    align-items: center;
+    /* 팝업이 열릴때 스르륵 열리는 효과 */
+    animation: modal-bg-show 0.3s;
+  }
+  @keyframes modal-show {
+    from {
+      opacity: 0;
+      margin-top: -50px;
+    }
+    to {
+      opacity: 1;
+      margin-top: 0;
+    }
+  }
+  @keyframes modal-bg-show {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  .mapModalList li{
+    /* list-style: none; */
+    text-align: center;
+    list-style:none;
+    margin: 0 43px;
+    width: 170px;
+    margin-top: 5px;
+    padding: 5px;
+    background-color: lightgray;
+    border-radius: 5px;
+    font-weight: bold;
+    /* border-bottom: 2px solid #537FE7; */
+    cursor: pointer;
+  }
+
+  .mapModalList li:hover{
+    opacity: 0.5;
+  }

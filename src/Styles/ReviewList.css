@@ -1,0 +1,150 @@
+.reviewListMain{
+    position: relative;
+    /* border: 1px solid black; */
+    margin-top: -10px;
+    padding: 10px;
+}
+
+.reviewListMainHeader{
+    margin-left: 7px;
+    max-width: 200px;
+}
+
+.reviewListStarBox{
+    width: 50px;
+}
+
+.reviewListSelectBox{
+    margin-left: 220px;
+    width: 130px;
+}
+
+.reviewListStar{
+    position: relative;
+    margin-left: 7px;
+    margin-top: -5px;
+    padding-bottom: 5px;
+    max-width: 200px;
+}
+
+.reviewListScore{
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: bold;
+    margin-top: 0px;
+    font-size: 15px;
+}
+
+.reviewListScore1{
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: bold;
+    margin-top: -2px;
+    font-size: 15px;
+}
+
+.reviewListName{
+    font-size: 14px;
+    font-weight: bold;
+    color: #888;
+}
+
+.reviewListCost{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #888;
+}
+
+.reviewListCost2{
+    text-align: center;
+    min-width: 110px;
+    /* padding: 0 15px; */
+}
+
+.reviewListCost3{
+    color: #888;
+    text-align: left;
+    margin-left: 7px;
+    margin-top: -5px;
+    padding-bottom: 5px;
+}
+
+.reviewListMedical{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.reviewListContentBox{
+    word-wrap: break-word;
+    word-break: break-all;
+    margin-top: 10px;
+    margin-left: 7px;
+    margin-bottom: -10px;
+}
+
+.reviewListContent{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.reviewListPrice{
+    font-size: 14px;
+    font-weight: bold;
+    color: #888;
+}
+
+.reviewListImg1{
+    background-color: lightgray;
+    width: 329px;
+    height: 220px;
+    margin: 0 auto;
+}
+
+.reviewListImg2{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.reviewSlideBox{
+    position: relative;
+}
+
+.reviewImgNum {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    padding: 1px 2px;
+    background-color: #888;
+    opacity: 0.8;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+  .reviewListReport{
+    position: absolute;
+    text-align: center;
+    top:20px;
+    right: 20px;
+  }
+
+  .reviewListFont1{
+    font-size: 5px;
+    font-weight: bold;
+  }
+  
+  .reviewListDelete{
+    position: absolute;
+    top:20px;
+    right: 70px;
+  }
+
+  .reviewListFont2{
+    font-size: 5px;
+    font-weight: bold;
+  }
+  
+  

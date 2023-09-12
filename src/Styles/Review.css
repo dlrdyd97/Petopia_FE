@@ -1,0 +1,153 @@
+/* RaitingSection ---------------------------------------- */
+
+.raitingContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.starDiv {
+    text-align: center;
+    display: block;
+    clear: both;
+}
+
+.ratingIndexText {
+    font-weight: bolder;
+    line-height: 35px;
+    display: block;
+    clear: both;
+    font-size: 0.8rem;
+}
+
+/* ReviewWrite ------------------------------------------- */
+
+.reviewWriteCheckBoxDiv {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0 0 70px;
+    font-size: 0.8rem;
+}
+
+.reviewRatingP {
+    display: block;
+    color: #537FE7;
+    font-weight: bold;
+    clear: both;
+    margin: 20px auto 20px 0px;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.reviewRatingComponent {
+    text-align: center;
+    margin: 0 0 0 -20px;
+}
+
+.whiteSpace {
+    width: 300px;
+    height: 77px;
+}
+
+.reviewCostInputFormControl {
+    margin: 0 0 0 10px;
+    width: 100px;
+     border:1px solid rgba(128, 128, 128, 0.5);
+    border-radius: 2px;
+    
+}
+
+.reviewCostInputFormControl::placeholder {
+    /* float: right; */
+}
+
+.reviewWriteCostInput {
+    width: 100px;
+}
+
+
+.reviewTd {
+    font-size: 0.8rem;
+    line-height: 3;
+    border-collapse : collapse;
+    vertical-align: bottom;
+    color: #537FE7;
+    margin: 0 0 0 35px;
+    font-weight: bolder;
+}
+
+.reviewWriteCompareOptionForm {
+    clear: both;
+    display: inline-block;
+    margin: 8px 100px 0 0;
+}
+
+.fasd {
+    width: 30px;
+    height: 30px;
+    color: #ffb950  ;
+}
+
+.reviewWriteTable {
+    margin: 5px 0 0 35px;
+}
+
+.reviewWriteRadioBoxDiv {
+    margin: -10px 0 0px 65px;
+    font-size: 0.9rem;
+    
+}
+
+.reviewWriteRadioBoxP {
+    font-size: 0.8rem;
+    line-height: 3;
+    border-collapse : collapse;
+    vertical-align: bottom;
+    color: #537FE7;
+    margin: 0px 0 0 -30px;
+}
+
+.reviewWriteForm {
+    padding: 20px;
+    width: 93%;
+    margin: 10px auto -30px auto;
+}
+
+/* BoardWrite */
+
+.boardWriteDiv {
+    margin: 60px 5px 0 0;
+}
+
+.reviewWriteContentForm {
+    margin: 30px 0 0 0;
+}
+
+.reviewContentForm {
+    height: 200px;
+    font-size: 1rem;
+    border-radius: 3px;
+}
+
+.reviewContentForm::placeholder {
+    font-size: 0.9rem;
+}
+
+.reviewWriteSubmit {
+    margin: 0 0 0 0;
+}
+
+.reviewWriteBtnsDiv {
+    margin: 30px 0 0 0;
+}
+
+.reviewWriteContentTextP {
+    text-align: right;
+    margin: -10px 5px 0px 0;
+}
+
+.review-number::-webkit-inner-spin-button,
+.review-number::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

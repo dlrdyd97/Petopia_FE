@@ -1,0 +1,163 @@
+.headerBtns {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 10px 10px 10px;
+}
+
+.headerBtns-R {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.headerBtns-left {
+    margin-right: auto;
+    padding: 0 15px;
+    cursor: pointer;
+}
+
+.headerBtns-right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 15px;
+}
+
+.user-info-icon {
+    font-size: 20px;
+}
+
+/* 로그인, 회원가입 버튼 */
+.headerBtns button {
+    margin-left: auto;
+    margin-right: 10px;
+    font-size: 12px;
+}
+
+/* 로그인 버튼 */
+.headerBtns .btn-primary {
+    background-color: #537FE7;
+    width: 6em;
+    margin-right: 10px;
+    font-size: 12px;
+    border-radius: 7px;
+}
+
+/* 회원가입 버튼 */
+.headerBtns .btn-outline-primary {
+    background-color: transparent;
+    border: 2px solid #537FE7;
+    color: #537FE7;
+    margin-right: 10px;
+    font-size: 12px;
+    border-radius: 7px;
+}
+
+/* 두 번째 줄 header 카테고리를 포함하는 부모 div */
+.headerCategoryConteiner {
+    display: flex;
+    justify-content: center;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    width: 100%;
+}
+
+.headerCategoryConteiner::-webkit-scrollbar {
+    /* Chrome, Safari용 스크롤바 제거 */
+    display: none;
+}
+
+/* 카테고리 목록 전체 div */
+.nav-tabs {
+    display: flex;
+    width: 100%;
+    padding: 3px;
+    padding-bottom: 0;
+    margin: 0;
+}
+
+.nav-tabs.hidden {
+    /* 숨겨진 카테고리 요소들을 표시하기 위해 이동 거리를 조정 */
+    transform: translateX(-100%);
+}
+
+/*===================== 어드민 header ======================*/
+.admin-headerCategoryConteiner {
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    width: 100%;
+}
+
+.admin-headerCategoryConteiner::-webkit-scrollbar {
+    /* Chrome, Safari용 스크롤바 제거 */
+    display: none;
+}
+
+.admin-nav-tabs {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 3px;
+    padding-bottom: 0;
+    margin: 0;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.admin-nav-tabs.hidden {
+    /* 숨겨진 카테고리 요소들을 표시하기 위해 이동 거리를 조정 */
+    transform: translateX(-100%);
+}
+
+/*===========================================*/
+
+
+/* 카테고리 목록 요소 div*/
+.nav-item {
+    margin-right: 10px;
+    font-size: 14px;
+    white-space: nowrap;
+    text-decoration: none;
+}
+
+/* 카테고리 폰트 색상 */
+.nav-link {
+    color: #484848 !important;
+    padding: 5px 10px;
+    user-select: none;
+}
+
+/* 활성화된 카테고리 링크 */
+.nav-item.active .nav-link {
+    background-color: #fff;
+    color: #537FE7 !important;
+    border-color: #dee2e6 #dee2e6 #fff;
+}
+
+/* hover 시 색상 변경 */
+.nav-link:hover {
+    color: #537FE7 !important;
+}
+
+@media (max-width: 767px) {
+
+    /* 모바일에서는 너비를 100%로 설정하여 더 이상 좌우로 스크롤하지 않도록 함 */
+    .headerCategoryConteiner {
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    .nav-tabs {
+        flex-wrap: nowrap;
+    }
+
+    .admin-headerCategoryConteiner {
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    .admin-nav-tabs {
+        flex-wrap: nowrap;
+    }
+}

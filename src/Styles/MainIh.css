@@ -1,0 +1,33 @@
+.wrap {
+  height: calc(100% - 369px);
+}
+
+.containerIh {
+  margin: auto;
+  width: 100%;
+  height: auto;
+  /* border: 3px solid black; */
+}
+
+.testmap {
+  width: 100%;
+  height: 300px;
+  margin: auto;
+  /* border: 1px solid green; */
+}
+
+.testlist {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+
+  margin-top: 30px;
+  border: 1px solid orange;
+}
+
+.mainlist {
+}
+
+.mainlist:hover {
+  opacity: 0.5;
+}
